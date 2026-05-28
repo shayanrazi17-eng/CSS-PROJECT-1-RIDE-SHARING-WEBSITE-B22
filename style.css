@@ -761,7 +761,7 @@ nav {
     .Sec4 {
         flex-direction: column;
         text-align: center;
-        padding: 30px 15px;
+        padding: 20px 15px 30px 15px;
         gap: 100px;
     }
 
@@ -969,7 +969,6 @@ nav {
     .Sec4 {
         flex-direction: column;
         text-align: center;
-        padding: 30px 15px;
         gap: 85px;
     }
 
