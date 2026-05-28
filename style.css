@@ -338,7 +338,6 @@ nav {
     color: #75bf7a;
 }
 
-
 .Sec6 {
     padding: 55px 50px;
     display: flex;
@@ -390,9 +389,7 @@ nav {
     width: 385px;
     font-size: 22px;
     color: #9E9DA2;
-
 }
-
 
 
 .div-sec6-2 {
@@ -818,6 +815,7 @@ nav {
 
     .Sec6 {
         padding: 45px 15px;
+        gap: 45px;
     }
 
     .div-sec6,
@@ -879,7 +877,7 @@ nav {
         flex-direction: column;
         text-align: center;
         gap: 30px;
-        padding: 45px 15px;
+        padding: 35px 15px;
         background-color: whitesmoke;
         border: none;
     }
@@ -918,6 +916,14 @@ nav {
 
 
 @media screen and (max-width: 768px) {
+
+    nav {
+        background-color: whitesmoke;
+    }
+
+    .Sec1 {
+        padding: 25px 15px 40px 15px;
+    }
 
     .Sec2 {
         padding: 35px 15px;
@@ -993,11 +999,15 @@ nav {
     }
 
     .Sec5 {
-        padding: 35px 15px 15px 15px;
+        padding: 35px 15px 10px 15px;
     }
 
     .i-span {
         font-size: 30px;
+    }
+
+    .Sec6 {
+        gap: 35px;
     }
 
     .div-sec6,
@@ -1029,11 +1039,14 @@ nav {
         width: 75%;
     }
 
+
+    .Footer {
+        padding: 30px 15px;
+    }
 }
 
 
 @media screen and (min-width: 613px) and (max-width: 768px) {
-
 
     .div1>a,
     .btn1 {
@@ -1098,6 +1111,10 @@ nav {
 
 @media screen and (max-width: 576px) {
 
+    .Sec1 {
+        padding: 20px 15px 40px 15px;
+    }
+
     .img-div-1>img {
         width: 130px;
         height: auto;
@@ -1112,6 +1129,10 @@ nav {
 }
 
 @media screen and (max-width: 488px) {
+
+    .Sec1 {
+        padding: 8px 15px 40px 15px;
+    }
 
     .div2>span {
         font-size: 30px;
@@ -1155,11 +1176,15 @@ nav {
     }
 
     .Sec5 {
-        padding: 30px 15px 10px 15px;
+        padding: 30px 15px 5px 15px;
     }
 
     .i-span {
         font-size: 24px;
+    }
+
+    .Sec6 {
+        gap: 25px;
     }
 
     .div-sec6,
@@ -1201,10 +1226,19 @@ nav {
         font-size: 14px;
         padding: 3px 8px;
     }
+
+    .Footer {
+        padding: 25px 15px;
+    }
 }
 
 
+
 @media screen and (max-width: 365px) {
+
+    .Sec1 {
+        padding: 0px 15px 40px 15px;
+    }
 
     .btn-div {
         display: flex;
